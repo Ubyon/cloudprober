@@ -5,7 +5,7 @@ package myprober;
 
 option go_package="github.com/cloudprober/cloudprober/examples/extensions/myprober/myprobe";
 
-import "github.com/cloudprober/cloudprober/probes/proto/config.proto";
+import "cloudprober/probes/proto/config.proto";
 
 message ProbeConf {
   // Redis operation

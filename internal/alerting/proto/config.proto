@@ -4,7 +4,7 @@ package cloudprober.alerting;
 
 option go_package = "github.com/cloudprober/cloudprober/internal/alerting/proto";
 
-import "github.com/cloudprober/cloudprober/internal/httpreq/proto/config.proto";
+import "cloudprober/internal/httpreq/proto/config.proto";
 
 
 message Email {

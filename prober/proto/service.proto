@@ -2,7 +2,7 @@ syntax = "proto2";
 
 package cloudprober;
 
-import "github.com/cloudprober/cloudprober/probes/proto/config.proto";
+import "cloudprober/probes/proto/config.proto";
 
 option go_package = "github.com/cloudprober/cloudprober/prober/proto";
 
